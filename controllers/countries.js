@@ -72,6 +72,7 @@ const getCountryCurrencies = (req, res) => {
     });
 };
 
+//function to get the contries based on region or languages , condition pass by params
 const getCountriesGroupBy = async (req, res) => {
   const params = req.params.group;
   countriesModel
