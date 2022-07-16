@@ -7,7 +7,7 @@ const saveJsonFile = async (req, res) => {
   const data = await getApiData(url);
 
   try {
-    fs.writeFileSync("countries.json", JSON.stringify(data, null, 2), (err) => {
+    fs.writeFile("countries.json", JSON.stringify(data, null, 2), (err) => {
       if (err) throw err;
       console.log("The file has been saved");
     });
