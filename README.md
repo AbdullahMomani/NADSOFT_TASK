@@ -1,10 +1,7 @@
 # NADSOFT_TASK
 # Countries
 
-📝 Table of Contents 
--Getting Started 
--Usage 
--Built Using
+
 
 
 
