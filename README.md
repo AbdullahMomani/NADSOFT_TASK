@@ -4,7 +4,7 @@
  # Getting Started
 
 Software:
-Visual studio code. -postman. -MongoDB
+Visual studio code. -postman. -MongoDB Compass 
 or you can use the browser to check the test cases
 
 
